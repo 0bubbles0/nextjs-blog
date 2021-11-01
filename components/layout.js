@@ -11,13 +11,14 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Barbara';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = "B's first Next.js";
 
 export default function Layout({ children, home }) {
 	return (
 		<div className={styles.container}>
 			<Head>
-				<link rel="icon" href="/favicon.ico" />
+				{/* <link rel="icon" href="/favicon.ico" /> */}
+				<link rel="icon" href="/images/bubble-mini.png" />
 				<meta
 					name="description"
 					content="Learn how to build a personal website using Next.js"
