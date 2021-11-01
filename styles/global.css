@@ -13,6 +13,11 @@ body {
 	background-color: lightgoldenrodyellow;
 }
 
+main {
+	max-width: 60ch;
+	margin: auto;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -30,4 +35,5 @@ a:hover {
 img {
 	max-width: 100%;
 	display: block;
+	/* height: auto; */
 }
